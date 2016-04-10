@@ -10,6 +10,7 @@
 
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
+    <?= $this->Html->css('resume.css') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
