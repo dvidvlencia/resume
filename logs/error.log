@@ -258,3 +258,48 @@ Stack Trace:
 #1 {main}
 
 
+2016-04-17 00:06:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resume/img/bg2.jpg
+Referer URL: http://localhost/resume/
+Stack Trace:
+#0 C:\xampp\htdocs\resume\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-17 00:06:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /resume/img/bg2.jpg
+Referer URL: http://localhost/resume/
+Stack Trace:
+#0 C:\xampp\htdocs\resume\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-17 00:10:45 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\resume\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php, line 138]
+Request URL: /resume/
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-04-17 00:11:04 Error: [Cake\Error\FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /resume/
+Stack Trace:
+#0 C:\xampp\htdocs\resume\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 138)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
